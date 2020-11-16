@@ -1,0 +1,5 @@
+<%= @article.id %>
+<%= @article.title  %>
+<%= @article.status  %>
+
+<%= link_to "Eliminar", @article,method: :delete,data: { confirm: "Deseas Eliminar registro?"} %>
